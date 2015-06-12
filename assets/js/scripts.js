@@ -68,6 +68,7 @@ var cornerstoneUX = {
 				e.preventDefault();
 				$(this).toggleClass('bg-gray');
 				$('#js-global-search').fadeToggle();
+				$("#js-global-search input[name='Search']").focus();
 			});
 		
 			// ---- Mobile Footer Links Control ---- //
